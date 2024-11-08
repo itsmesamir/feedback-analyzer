@@ -1,5 +1,7 @@
 {
   "watch": ["src/**/*.ts", ".env"],
   "ext": "ts,js,.env,json",
-  "exec": "ts-node -r tsconfig-paths/register  --transpile-only src/app.ts"
+  "ignore": ["dist/*", "node_modules/*"],
+  "exec": "ts-node -r tsconfig-paths/register  --transpile-only src/app.ts",
+  "legacyWatch": true
 }
