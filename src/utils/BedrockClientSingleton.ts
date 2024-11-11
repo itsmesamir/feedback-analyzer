@@ -18,6 +18,12 @@ class BedrockClientSingleton {
       BedrockClientSingleton.instance = new BedrockRuntimeClient({
         credentials: fromEnv(),
         region: process.env.AWS_REGION,
+        logger: {
+          debug: () => {},
+          info: () => {},
+          warn: () => {},
+          error: () => {},
+        },
       });
     }
     return BedrockClientSingleton.instance;
