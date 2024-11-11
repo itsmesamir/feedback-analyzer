@@ -1,7 +1,9 @@
 import fs from "fs";
 import csv from "csv-parser";
 import { parse as json2csv } from "json2csv";
+
 import { analyzeFeedback } from "./analyzeFeedback";
+import { batchProcess, handleWithRetry } from "./batchProcess";
 
 export const readCSV = (filePath: string): Promise<any[]> => {
   return new Promise((resolve, reject) => {
@@ -39,7 +41,6 @@ export const updateCSV = async (
 ): Promise<void> => {
   const fields = [
     "noteId",
-    "feedback",
     "overallSentiment",
     "Mixed",
     "Neutral",
@@ -71,6 +72,7 @@ export const updateCSV = async (
     const index = existingData.findIndex(
       (row) => row.noteId === newEntry.noteId
     );
+
     if (index !== -1) {
       // Update existing entry
       existingData[index] = newEntry;
@@ -97,10 +99,57 @@ export const chunkArray = <T>(array: T[], chunkSize: number): T[][] => {
   return result;
 };
 
-const currentDate = () => {
+export const currentDate = () => {
   const currentDate = new Date();
   return `${currentDate.toISOString()} `;
 };
+
+async function analyzeChunk(
+  chunk: any[],
+  outputFilePath: string
+): Promise<void> {
+  const chunkedId = chunk.map((c) => c.noteId).join(",");
+
+  console.log(`Processing feedback with noteIds ${chunkedId}`);
+
+  try {
+    // Process all feedbacks in the chunk and handle errors for each feedback individually
+    const analyzedData = await Promise.all(
+      chunk.map(async (item) => {
+        const { noteId, feedback } = item;
+
+        return handleWithRetry(noteId, () => analyzeFeedback(feedback))
+          .then((analyzedFeedback) => {
+            const { overallSentiment, overallSummary, sentimentPercentages } =
+              analyzedFeedback;
+
+            return {
+              noteId,
+              overallSentiment,
+              ...sentimentPercentages,
+              overallSummary,
+            };
+          })
+          .catch((feedbackError) => {
+            console.error(`Error processing feedback with noteId ${noteId}.`);
+            throw feedbackError;
+          });
+      })
+    );
+
+    // Once all feedbacks are processed, update the CSV with the analyzed data
+    await updateCSV(outputFilePath, analyzedData);
+
+    console.log(
+      currentDate(),
+      `Processed and saved chunk of ${chunkedId} feedbacks to ${outputFilePath}`
+    );
+  } catch (error: any) {
+    console.error(`Error processing chunk with noteIds ${chunkedId}.`);
+
+    throw error;
+  }
+}
 
 export const analyzeFeedbacks = async (
   filePath: string,
@@ -108,46 +157,13 @@ export const analyzeFeedbacks = async (
 ) => {
   const feedbacks = await readCSV(filePath);
 
-  const chunkSize = 10;
+  const chunkSize = 5;
 
-  const chunks = chunkArray(feedbacks, chunkSize);
-
-  for (const chunk of chunks) {
-    try {
-      // Analyze each feedback in the chunk concurrently
-      const chunkedId = chunk.map((c) => c.noteId).join(",");
-
-      console.log(`Processing feedback with noteIds ${chunkedId}`);
-
-      const analyzedData = await Promise.all(
-        chunk.map(async (feedbackEntry) => {
-          const analyzed_feedback = await analyzeFeedback(
-            feedbackEntry.feedback
-          );
-
-          const { overallSentiment, overallSummary, sentimentPercentages } =
-            analyzed_feedback;
-
-          return {
-            ...feedbackEntry,
-            overallSentiment,
-            ...sentimentPercentages,
-            overallSummary,
-          };
-        })
-      );
-
-      // Append each processed chunk to the CSV file
-      updateCSV(outputFilePath, analyzedData);
-
-      console.log(
-        currentDate(),
-        `Processed and saved chunk of 5 feedbacks to ${outputFilePath}`
-      );
-    } catch (error) {
-      console.error("Error processing chunk:", error);
-    }
-  }
+  await batchProcess(
+    feedbacks,
+    (data) => analyzeChunk(data, outputFilePath),
+    chunkSize
+  );
 
   console.log(
     currentDate(),

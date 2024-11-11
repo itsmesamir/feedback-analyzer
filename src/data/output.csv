@@ -1,101 +1,101 @@
-noteId,feedback,overallSentiment,Mixed,Neutral,Constructive,Appreciative,Negative,Suggestive,Criticism,overallSummary
-1,"The product design is impressive, featuring a sleek interface and intuitive navigation. Core features stand out as excellent. However, I experienced performance issues during peak usage, and while customer support was helpful, response times could be faster. There's also room for more customization options. Despite these areas for improvement, I believe the product has strong potential and look forward to future updates.",Mixed,50,0,10,30,10,50,10,"The product has an impressive design and excellent core features, but performance issues and slow customer support response times are concerns. More customization options are desired."
-2,The service was okay but needs to be faster.,Mixed,50,0,0,0,50,0,0,The service was satisfactory but could be faster.
-3,The product was disappointing and did not meet expectations.,Negative,,,,,100,,100,The product received negative feedback for not meeting expectations.
-4,Great quality! Very satisfied with my purchase.,Appreciative,0,0,0,100,0,0,0,The customer is satisfied with the great quality of the product.
-5,"Product quality was fine, but the packaging could be better.",Mixed,100,0,0,0,50,50,0,"The product quality was satisfactory, but there were concerns about the packaging."
-6,Amazing product! Will definitely recommend to others.,Appreciative,0,0,0,100,0,0,0,The user is impressed with the product and intends to recommend it to others.
-7,"The delivery was quick, but the product was not as described.",Mixed,100,0,0,50,50,0,50,"The delivery was quick, but the product did not meet expectations."
-8,"Excellent customer service, very helpful staff!",Appreciative,0,0,0,100,0,0,0,The customer appreciates the excellent customer service and helpful staff.
-9,"Product did not match the description, quite disappointed.",Negative,,,,,100,,100,"The product did not match the description, leading to disappointment."
-10,"Very happy with the purchase, exceeded my expectations.",Appreciative,0,0,0,100,0,0,0,"The customer is happy with their purchase, which exceeded their expectations."
-11,"The item arrived damaged, not satisfied.",Negative,0,0,0,0,100,0,100,The customer received a damaged item and expressed dissatisfaction.
-12,"Great experience overall, will shop again!",Appreciative,0,0,0,100,0,0,0,The customer had a great experience and plans to shop again.
-13,"Product was okay, but a bit overpriced.",Mixed,100,0,0,0,50,0,50,"The product received mixed feedback, with users acknowledging its functionality but expressing concerns about its price."
-14,The quality could be better for the price.,Negative,0,0,0,0,100,0,100,The quality of the product is perceived as not meeting the expectations for the price.
-15,"Fast shipping, but the product is average.",Mixed,50,0,0,50,0,0,0,"The product received mixed feedback, with fast shipping being appreciated but the product itself being average."
-16,Loved it! Exactly what I was looking for.,Appreciative,0,0,0,100,0,0,0,The user expressed satisfaction with the product.
-17,"Packaging was terrible, but the product is good.",Negative,0,0,0,50,50,0,50,"The packaging of the product received negative feedback, while the product itself was considered good."
-18,"Service was friendly, but a bit slow.",Mixed,100,0,0,0,50,0,50,The service was friendly but slow.
-19,"Satisfied with the purchase, would buy again.",Appreciative,0,0,0,100,0,0,0,The customer is satisfied with their purchase and would consider buying again.
-20,The product broke within a week of use.,Negative,,,,,100,,100,"The product's durability is questionable, as it broke within a week of use."
-21,Fantastic quality and excellent service.,Appreciative,0,0,0,100,0,0,0,"The feedback is positive, expressing appreciation for the high-quality product and excellent service."
-22,"Not worth the money, quite disappointed.",Negative,0,0,0,0,100,0,0,The feedback expresses disappointment and mentions that the product or service is not worth the money.
-23,Happy with the service and product quality.,Appreciative,0,0,0,100,0,0,0,The customers are satisfied with the service and product quality.
-24,"The product exceeded my expectations, amazing!",Appreciative,0,0,0,100,0,0,0,"The product received positive feedback, exceeding user expectations."
-25,Product was defective upon arrival.,Negative,,,,,100,,100,The product was received with defects.
-26,Very satisfied with the prompt delivery and quality.,Appreciative,0,0,0,100,0,0,0,The user is satisfied with the prompt delivery and quality.
-27,"The product is okay, but the design could improve.",Mixed,100,0,0,0,0,0,100,"The product received mixed feedback, with users acknowledging its functionality but expressing concerns about the design."
-28,"Loved the product, great value for money.",Appreciative,0,0,0,100,0,0,0,"The feedback is positive, expressing love for the product and acknowledging its great value for money."
-29,Disappointed with the customer support.,Negative,,,,,100,,100,Customers express dissatisfaction with the customer support.
-30,"The product quality was poor, not recommended.",Negative,,,,,100,,100,"The product quality was criticized, and it was not recommended."
-31,"Received exactly what was advertised, happy with it.",Appreciative,0,0,0,100,0,0,0,"The customer is satisfied with the product, having received exactly what was advertised."
-32,Product was decent but needs improvement.,Mixed,100,0,0,0,0,0,0,"The product received mixed feedback, with users acknowledging its decent quality but also expressing the need for improvement."
-33,"Fantastic service, product was perfect!",Appreciative,0,0,0,100,0,0,0,The customer expressed satisfaction with the service and product.
-34,Disappointed with the slow delivery.,Negative,0,0,0,0,100,0,100,"The delivery was slow, leading to disappointment."
-35,"The quality of the product is amazing, thank you!",Appreciative,0,0,0,100,0,0,0,The product quality is highly appreciated.
-36,"Product was not as described, wouldn't recommend.",Negative,0,0,0,0,100,0,0,"Multiple users expressed dissatisfaction with the product, stating it did not meet their expectations and they would not recommend it."
-37,"Good product, but the price is a bit high.",Mixed,100,0,0,0,50,50,0,"The product is generally good, but the price is a bit high."
-38,"Loved the experience, will shop here again!",Appreciative,0,0,0,100,0,0,0,The customer had a positive experience and intends to shop again.
-39,"The product met my expectations, quite happy.",Appreciative,0,0,0,100,0,0,0,The user is happy with the product meeting their expectations.
-40,It arrived late but was worth the wait.,Mixed,100,0,0,50,50,0,0,"The delivery of the product was delayed, but the customer found it worth the wait."
-41,Great quality and fast delivery!,Appreciative,0,0,0,100,0,0,0,The customer appreciates the great quality and fast delivery of the product.
-42,"Product was okay, but I expected more.",Mixed,100,0,0,0,0,0,0,"The product received mixed feedback, with users finding it satisfactory but not exceeding their expectations."
-43,"Service was excellent, and product quality is good.",Appreciative,0,0,0,100,0,0,0,The service was excellent and the product quality is good.
-44,The item did not meet my expectations.,Negative,0,0,0,0,100,0,100,The item did not meet the user's expectations.
-45,"Good product, but packaging could be improved.",Mixed,50,0,0,0,50,0,50,"The product received positive feedback, but the packaging was criticized."
-46,Very impressed with the customer service.,Appreciative,0,0,0,100,0,0,0,The customer is impressed with the customer service.
-47,"Product broke after a few uses, disappointed.",Negative,,,,,100,,100,"The product broke after a few uses, leading to disappointment."
-48,Amazing quality! Very pleased with my purchase.,Appreciative,0,0,0,100,0,0,0,The customer is pleased with the quality of their purchase.
-49,"Not worth the price, expected better quality.",Negative,0,0,0,0,100,0,0,The feedback expresses dissatisfaction with the product's price and quality.
-50,"Product is decent, but shipping was delayed.",Mixed,100,0,0,0,50,0,50,"The product received mixed feedback, with users acknowledging its decent quality but expressing concerns about shipping delays."
-51,Excellent product and fast service!,Appreciative,0,0,0,100,0,0,0,The customer appreciates the excellent product and fast service.
-52,"Satisfied with the quality, but a bit overpriced.",Mixed,100,0,0,0,50,50,0,The user is satisfied with the quality but finds the product a bit overpriced.
-53,"The item was as expected, good buy.",Appreciative,0,0,0,100,0,0,0,"The item met expectations, resulting in a positive purchase experience."
-54,"Service was slow, but the product is fine.",Mixed,50,0,0,0,50,0,50,"The product received positive feedback, but the service was criticized for being slow."
-55,"Very disappointed, would not buy again.",Negative,0,0,0,0,100,0,0,The customer is disappointed and would not make a repeat purchase.
-56,"Great experience, product was top-notch!",Appreciative,0,0,0,100,0,0,0,The user had a great experience and appreciated the top-notch product.
-57,Product arrived on time and works well.,Appreciative,0,0,0,100,0,0,0,The product arrived on time and functions well.
-58,The quality is acceptable but could be better.,Neutral,0,50,0,0,50,0,0,"The quality of the product is considered acceptable, but there is room for improvement."
-59,"Fantastic service, the product is as advertised.",Appreciative,0,0,0,100,0,0,0,"The feedback is positive, with the user expressing satisfaction with the service and the product."
-60,"Not satisfied, the product feels cheaply made.",Negative,,,,,100,,100,Users express dissatisfaction with the product's build quality.
-61,Good quality and quick delivery!,Appreciative,0,0,0,100,0,0,0,The feedback is appreciative of the good quality and quick delivery of the product.
-62,"Packaging was poor, but the product is okay.",Negative,0,50,0,0,50,0,50,"The packaging of the product was poor, but the product itself was acceptable."
-63,"Exceeded my expectations, highly recommend!",Appreciative,0,0,0,100,0,0,0,"The feedback is positive and appreciative, with the user expressing satisfaction and recommending the service."
-64,"The item arrived in perfect condition, happy with it.",Appreciative,0,0,0,100,0,0,0,The customer is happy with the item's condition upon arrival.
-65,"Not impressed, expected better service.",Negative,0,0,0,0,100,0,100,The feedback expresses disappointment with the service.
-66,"Loved the product, will definitely buy again.",Appreciative,0,0,0,100,0,0,0,The user expressed satisfaction with the product and plans to make a repeat purchase.
-67,"Average product, but good service.",Mixed,50,0,0,0,50,0,0,"The product received mixed feedback, with an average assessment, but the service was praised."
-68,Customer support was very helpful.,Appreciative,0,0,0,100,0,0,0,Customers appreciate the helpfulness of the customer support.
-69,"Product quality is great, happy with it.",Appreciative,0,0,0,100,0,0,0,"The feedback is positive, with the user expressing satisfaction with the product quality."
-70,"Received a faulty product, had to return it.",Negative,,,,,100,,100,A customer received a faulty product and had to return it.
-71,"The item is exactly as described, satisfied.",Appreciative,0,0,0,100,0,0,0,The customer is satisfied with the item as described.
-72,"Slow delivery, but the product is worth it.",Mixed,100,0,0,0,50,0,50,"The delivery of the product was slow, but the product was considered worth the wait."
-73,"Good product, but packaging was damaged.",Mixed,50,0,0,0,50,0,50,"The product received positive feedback, but the packaging was damaged."
-74,The service was friendly and efficient.,Appreciative,0,0,0,100,0,0,0,The service was friendly and efficient.
-75,"Quality was not as expected, disappointed.",Negative,0,0,0,0,100,0,0,"The quality of the product or service did not meet the expectations of the customers, leading to disappointment."
-76,"Product met all my expectations, very happy!",Appreciative,0,0,0,100,0,0,0,"The product met the user's expectations, leading to a positive experience."
-77,"Amazing service, will recommend to friends.",Appreciative,0,0,0,100,0,0,0,The user expressed satisfaction with the service and recommended it to others.
-78,"The product is fine, but delivery was delayed.",Mixed,50,0,0,0,50,0,0,"The product received mixed feedback, with users finding it satisfactory but experiencing delivery delays."
-79,"Good experience, quality product.",Appreciative,0,0,0,100,0,0,0,"The feedback is positive, with users expressing a good experience and appreciation for the quality product."
-80,The product did not meet my expectations.,Negative,0,0,0,0,100,0,0,The product did not meet users' expectations.
-81,Very satisfied with both product and service.,Appreciative,0,0,0,100,0,0,0,The user is satisfied with the product and service.
-82,Item was delivered on time and works great.,Appreciative,0,0,0,100,0,0,0,The item was delivered on time and functions well.
-83,Expected better quality for the price.,Negative,0,0,0,0,100,0,100,The feedback expresses disappointment with the quality of a product in relation to its price.
-84,"Service was excellent, very responsive.",Appreciative,0,0,0,100,0,0,0,The service was excellent and very responsive.
-85,"Product was okay, but nothing special.",Neutral,,100,,,,,,"The product was evaluated as okay, but not particularly special."
-86,"Great product, would purchase again.",Appreciative,0,0,0,100,0,0,0,The customer is satisfied with the product and would consider purchasing it again.
-87,Not satisfied with the delivery time.,Negative,0,0,0,0,100,0,100,The delivery time is causing dissatisfaction among users.
-88,"Fantastic quality, worth every penny!",Appreciative,0,0,0,100,0,0,0,The product received positive feedback for its high quality.
-89,"Product was not as described, quite disappointed.",Negative,,,,,100,,100,"The product did not meet customer expectations, leading to disappointment."
-90,Great service and amazing product quality!,Appreciative,0,0,0,100,0,0,0,"The feedback is positive, with the user expressing satisfaction with the service and product quality."
-91,"Quality was acceptable, but could improve.",Mixed,100,0,0,0,0,0,0,"The quality of the product was acceptable, but there is room for improvement."
-92,"Very happy with the purchase, will recommend!",Appreciative,0,0,0,100,0,0,0,The customer is happy with their purchase and intends to recommend it.
-93,"The item broke after a few uses, not happy.",Negative,,,,,100,,100,"The item broke after a few uses, leading to dissatisfaction."
-94,"Satisfied with the product, delivery was fast.",Appreciative,0,0,0,100,0,0,0,The user is satisfied with the product and appreciated the fast delivery.
-95,"Product quality is good, but expensive.",Mixed,100,0,0,0,50,50,0,"The product quality is generally good, but the price is considered high."
-96,Loved the fast service and good quality.,Appreciative,0,0,0,100,0,0,0,The customer appreciated the fast service and good quality.
-97,"The product is just okay, nothing special.",Neutral,,100,,,,,,"The product is considered average, lacking any remarkable features."
-98,"Excellent product, meets all my needs.",Appreciative,0,0,0,100,0,0,0,The product received positive feedback for meeting the user's needs.
-99,"Not impressed, the quality could be better.",Negative,0,0,0,0,100,0,0,The quality of the product is not impressive.
-100,"Very happy with the product, great purchase!",Appreciative,0,0,0,100,0,0,0,The user is happy with the product and considers it a great purchase.
+"noteId","overallSentiment","Mixed","Neutral","Constructive","Appreciative","Negative","Suggestive","Criticism","overallSummary"
+"1","Mixed","40","0","10","30","20","30","10","The feedback highlights the product's impressive design and core features, while also mentioning performance issues during peak usage, slow customer support response times, and a need for more customization options."
+"2","Mixed","50","0","0","0","50","0","0","The service was satisfactory but could be faster."
+"3","Negative","0","0","0","0","100","0","100","The product received negative feedback for not meeting expectations."
+"4","Appreciative","0","0","0","100","0","0","0","The customer is satisfied with the great quality of the product."
+"5","Mixed","100","0","0","0","50","50","0","The product quality was satisfactory, but there were concerns about the packaging."
+"6","Appreciative","0","0","0","100","0","0","0","The user is impressed with the product and intends to recommend it to others."
+"7","Mixed","100","0","0","50","50","0","50","The delivery was quick, but the product did not meet expectations."
+"8","Appreciative","0","0","0","100","0","0","0","The customer appreciates the excellent customer service and helpful staff."
+"9","Negative","","","","","100","","100","The product did not match the description, leading to disappointment."
+"10","Appreciative","0","0","0","100","0","0","0","The customer is happy with their purchase, which exceeded their expectations."
+"11","Negative","0","0","0","0","100","0","100","The customer received a damaged item and expressed dissatisfaction."
+"12","Appreciative","0","0","0","100","0","0","0","The customer had a great experience and plans to shop again."
+"13","Mixed","100","0","0","0","50","50","0","The product received mixed feedback, with users acknowledging its functionality but expressing concerns about its price."
+"14","Negative","0","0","0","0","100","0","0","The quality of the product is perceived as not meeting the expectations for the price."
+"15","Mixed","50","0","0","50","0","0","0","The product received mixed feedback, with fast shipping being appreciated but the product itself being average."
+"16","Appreciative","0","0","0","100","0","0","0","The user expressed satisfaction with the product."
+"17","Negative","0","0","0","50","50","0","50","The packaging of the product received negative feedback, while the product itself was considered good."
+"18","Mixed","100","0","0","0","50","0","50","The service was friendly but slow."
+"19","Appreciative","0","0","0","100","0","0","0","The customer is satisfied with their purchase and would consider buying again."
+"20","Negative","","","","","100","","100","The product's durability is questionable, as it broke within a week of use."
+"21","Appreciative","0","0","0","100","0","0","0","The feedback is positive, highlighting the fantastic quality and excellent service."
+"22","Negative","0","0","0","0","100","0","0","The feedback expresses disappointment and mentions the product not being worth the money."
+"23","Appreciative","0","0","0","100","0","0","0","The customers are satisfied with the service and product quality."
+"24","Appreciative","0","0","0","100","0","0","0","The product received positive feedback, exceeding user expectations."
+"25","Negative","","","","","100","","100","The product was received with defects."
+"26","Appreciative","0","0","0","100","0","0","0","The user is satisfied with the prompt delivery and quality."
+"27","Mixed","100","0","0","0","50","50","0","The product received mixed feedback, with users acknowledging its functionality but expressing concerns about the design."
+"28","Appreciative","0","0","0","100","0","0","0","The feedback is positive, expressing love for the product and acknowledging its great value for money."
+"29","Negative","","","","","100","","100","Customers express dissatisfaction with the customer support."
+"30","Negative","","","","","100","","100","The product quality was criticized, and it was not recommended."
+"31","Appreciative","0","0","0","100","0","0","0","The customer is satisfied with the product, having received exactly what was advertised."
+"32","Mixed","100","0","0","0","0","0","0","The product received mixed feedback, with users acknowledging its decent quality but also expressing the need for improvement."
+"33","Appreciative","0","0","0","100","0","0","0","The customer expressed satisfaction with the service and product."
+"34","Negative","","","","","100","","100","The delivery was slow, causing disappointment."
+"35","Appreciative","0","0","0","100","0","0","0","The product quality is highly appreciated."
+"36","Negative","0","0","0","0","100","0","100","Multiple users expressed dissatisfaction with the product, stating it did not meet their expectations and they would not recommend it."
+"37","Mixed","100","0","0","0","50","50","0","The product is generally good, but the price is a bit high."
+"38","Appreciative","0","0","0","100","0","0","0","The customer had a positive experience and plans to shop again."
+"39","Appreciative","0","0","0","100","0","0","0","The user is happy with the product meeting their expectations."
+"40","Mixed","100","0","0","50","50","0","0","The delivery of the product was delayed, but the customer found it worth the wait."
+"41","Appreciative","0","0","0","100","0","0","0","The customer appreciates the great quality and fast delivery of the product."
+"42","Mixed","100","0","0","0","0","0","0","The product received mixed feedback, with users finding it satisfactory but not exceeding their expectations."
+"43","Appreciative","0","0","0","100","0","0","0","The service was excellent, and the product quality is good."
+"44","Negative","0","0","0","0","100","0","100","The item did not meet the user's expectations."
+"45","Mixed","50","0","0","0","50","0","50","The product received positive feedback, but the packaging was criticized."
+"46","Appreciative","0","0","0","100","0","0","0","The customer is impressed with the customer service."
+"47","Negative","","","","","100","","100","The product broke after a few uses, leading to disappointment."
+"48","Appreciative","0","0","0","100","0","0","0","The customer is pleased with the quality of their purchase."
+"49","Negative","0","0","0","0","100","0","0","The feedback expresses dissatisfaction with the product's price and quality."
+"50","Mixed","100","0","0","0","50","0","50","The product received mixed feedback, with users acknowledging its decent quality but expressing concerns about shipping delays."
+"51","Appreciative","0","0","0","100","0","0","0","The customer appreciates the excellent product and fast service."
+"52","Mixed","100","0","0","0","50","50","0","The user is satisfied with the quality but finds the product a bit overpriced."
+"53","Appreciative","0","0","0","100","0","0","0","The item met expectations, resulting in a positive purchase experience."
+"54","Mixed","50","0","0","0","50","0","50","The product received positive feedback, but the service was criticized for being slow."
+"55","Negative","0","0","0","0","100","0","100","The customer is disappointed and would not make a repeat purchase."
+"56","Appreciative","0","0","0","100","0","0","0","The user had a great experience and appreciated the top-notch product."
+"57","Appreciative","0","0","0","100","0","0","0","The product arrived on time and functions well."
+"58","Neutral","0","50","0","0","50","0","0","The quality of the product is considered acceptable, but there is room for improvement."
+"59","Appreciative","0","0","0","100","0","0","0","The feedback is positive, with the user expressing satisfaction with the service and the product."
+"60","Negative","","","","","100","","100","Users express dissatisfaction with the product's build quality."
+"61","Appreciative","0","0","0","100","0","0","0","The feedback is appreciative of the good quality and quick delivery of the product."
+"62","Negative","","50","","","50","","","The packaging of the product was poor, but the product itself was acceptable."
+"63","Appreciative","0","0","0","100","0","0","0","The feedback is positive and appreciative, with the user expressing satisfaction and recommending the service."
+"64","Appreciative","0","0","0","100","0","0","0","The customer is happy with the item's condition."
+"65","Negative","0","0","0","0","100","0","100","The feedback expresses disappointment with the service."
+"66","Appreciative","0","0","0","100","0","0","0","The user expressed satisfaction with the product and plans to make a repeat purchase."
+"67","Mixed","50","0","0","0","50","0","0","The product received mixed feedback, with an average rating, but the service was praised."
+"68","Appreciative","0","0","0","100","0","0","0","Customers appreciate the helpfulness of the customer support."
+"69","Appreciative","0","0","0","100","0","0","0","The feedback is positive, with users expressing satisfaction with the product quality."
+"70","Negative","","","","","100","","100","A customer received a faulty product and had to return it."
+"71","Appreciative","0","0","0","100","0","0","0","The customer is satisfied with the item as described."
+"72","Mixed","100","0","0","0","50","0","50","The delivery of the product was slow, but the product was considered worth the wait."
+"73","Mixed","50","0","0","0","50","0","50","The product received positive feedback, but the packaging was damaged."
+"74","Appreciative","0","0","0","100","0","0","0","The service was friendly and efficient."
+"75","Negative","0","0","0","0","100","0","0","The quality of the product or service did not meet the expectations of the customers, leading to disappointment."
+"76","Appreciative","0","0","0","100","0","0","0","The product met the user's expectations, leading to a positive experience."
+"77","Appreciative","0","0","0","100","0","0","0","The user expressed satisfaction with the service and recommended it to others."
+"78","Mixed","50","0","0","0","50","0","0","The product received mixed feedback, with users finding it satisfactory but expressing concerns about delivery delays."
+"79","Appreciative","0","0","0","100","0","0","0","The feedback is positive, with users expressing satisfaction with their experience and the quality of the product."
+"80","Negative","0","0","0","0","100","0","0","The product did not meet users' expectations."
+"81","Appreciative",0,0,0,100,0,0,0,"The user is satisfied with the product and service."
+"82","Appreciative",0,0,0,100,0,0,0,"The item was delivered on time and works great."
+"83","Negative",0,0,0,0,100,0,100,"The feedback expresses disappointment with the quality of a product in relation to its price."
+"84","Appreciative",0,0,0,100,0,0,0,"The service was excellent and very responsive."
+"85","Neutral",0,100,0,0,0,0,0,"The product was considered average, with no significant positive or negative aspects."
+"86","Appreciative",0,0,0,100,0,0,0,"The customer is satisfied with the product and would consider purchasing it again."
+"87","Negative",0,0,0,0,100,0,100,"The delivery time is causing dissatisfaction among users."
+"88","Appreciative",0,0,0,100,0,0,0,"The product received positive feedback for its high quality."
+"89","Negative",,,,,100,,100,"The product did not meet customer expectations, leading to disappointment."
+"90","Appreciative",0,0,0,100,0,0,0,"The feedback is positive, highlighting great service and amazing product quality."
+"91","Mixed",100,0,0,0,0,0,0,"The quality of the product or service was acceptable, but there is room for improvement."
+"92","Appreciative",0,0,0,100,0,0,0,"The customer is happy with their purchase and intends to recommend it."
+"93","Negative",,,,,100,,100,"The user is not satisfied with the item's durability as it broke after a few uses."
+"94","Appreciative",0,0,0,100,0,0,0,"The user is satisfied with the product and appreciated the fast delivery."
+"95","Mixed",100,0,0,0,50,50,0,"The product quality is generally good, but the price is considered high."
+"96","Appreciative",0,0,0,100,0,0,0,"The customer appreciated the fast service and good quality."
+"97","Neutral",,100,,,,,,"The product is considered average, lacking any remarkable features."
+"98","Appreciative",0,0,0,100,0,0,0,"The product received positive feedback for meeting the user's needs."
+"99","Negative",0,0,0,0,100,0,0,"The quality of the product is not impressive."
+"100","Appreciative",0,0,0,100,0,0,0,"The user is happy with the product and considers it a great purchase."

@@ -1,5 +1,5 @@
 import BedrockClientSingleton from "./BedrockClientSingleton";
-import { feedbackSummarizer } from "./prompts"; // Importing the feedback summarization prompt
+import { feedbackSummarizer } from "./prompts";
 
 export function parseFeedback(response: ArrayBuffer | SharedArrayBuffer) {
   const decodedResponse = new TextDecoder().decode(response);
@@ -10,11 +10,24 @@ export function parseFeedback(response: ArrayBuffer | SharedArrayBuffer) {
     outputs: [output],
   } = jsonParsed;
 
-  return JSON.parse(output.text);
+  // Use a regex to extract only the JSON portion from `output.text`
+  const jsonMatch = output.text.match(/{(?:[^{}]|{[^{}]*})*}/);
+
+  if (!jsonMatch || jsonMatch.length === 0) {
+    throw new Error("Valid JSON object not found in the response text");
+  }
+
+  const innerParsed = JSON.parse(jsonMatch[0]);
+
+  return innerParsed;
 }
 
 export const analyzeFeedback = async (feedback: string) => {
   const modelId = process.env.LLM_MODEL_ID;
+
+  // const error = new Error("Too many requests") as unknown as any;
+  // error.$metadata = { httpStatusCode: 429 };
+  // throw error;
 
   if (!modelId) {
     throw new Error("LLM_MODEL_ID is not defined");
@@ -41,7 +54,6 @@ export const analyzeFeedback = async (feedback: string) => {
 
     return resultBody;
   } catch (error) {
-    console.error("Error analyzing feedback:", error);
     throw error;
   }
 };
