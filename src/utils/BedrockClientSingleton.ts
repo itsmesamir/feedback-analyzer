@@ -11,9 +11,9 @@ class BedrockClientSingleton {
   private constructor() {}
 
   public static getInstance(): BedrockRuntimeClient {
-    console.log("Getting Bedrock client instance");
-    console.log("AWS_REGION:", process.env.AWS_REGION);
-    console.log("credentials:", fromEnv());
+    // console.log("Getting Bedrock client instance");
+    // console.log("AWS_REGION:", process.env.AWS_REGION);
+    // console.log("credentials:", fromEnv());
     if (!BedrockClientSingleton.instance) {
       BedrockClientSingleton.instance = new BedrockRuntimeClient({
         credentials: fromEnv(),

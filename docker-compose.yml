@@ -1,0 +1,14 @@
+version: "3"
+services:
+  app:
+    build:
+      context: .
+      target: development # Use the development stage from Dockerfile
+    volumes:
+      - .:/app # Syncs the local directory with the container
+      - /app/node_modules # Prevents overwriting node_modules in container
+    ports:
+      - "3000:3000" # Maps container port to localhost
+    environment:
+      NODE_ENV: development
+    command: npm run dev # Runs nodemon with ts-node

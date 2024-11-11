@@ -11,7 +11,7 @@ app.get("/summarize", async (req: Request, res: Response) => {
     const inputFilePath = "src/data/input.csv";
     const outputFilePath = "src/data/output.csv";
 
-    console.log("Analyzing feedbacks...");
+    console.log("Analyzing feedbacks....");
 
     await analyzeFeedbacks(inputFilePath, outputFilePath);
 
