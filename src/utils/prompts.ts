@@ -12,7 +12,6 @@ export const feedbackSummarizer = (feedback: string) => {
   [INST]Format your analysis as the following JSON object:
   {
     "overallSentiment": "[INST]Determine and provide the overall sentiment of the feedback.[/INST]",
-    "suggestions": "[INST]Provide suggestions for improvement on the provided feedback to increase the quality of the feedback.[/INST]",
     "overallSummary": "[INST]Provide a concise summary of the entire feedback, capturing the main points and overall tone.[/INST]",
     "sentimentPercentages": {
       "Mixed": "[INST]Calculate the raw percentage of Mixed sentiment based on summary points. Normalize percentages to ensure they sum up to 100%.[/INST]",
@@ -23,13 +22,6 @@ export const feedbackSummarizer = (feedback: string) => {
       "Suggestive": "[INST]Calculate the raw percentage of Suggestive sentiment based on summary points. Normalize percentages to ensure they sum up to 100%.[/INST]",
       "Criticism": "[INST]Calculate the raw percentage of Criticism sentiment based on summary points. Normalize percentages to ensure they sum up to 100%.[/INST]"
     },
-    "sentimentQualitativeAssessment": "[INST]Provide a qualitative assessment of the overall sentiment distribution, considering the calculated percentages and overall tone of the feedback.[/INST]",
-    "summary": [
-      {
-        "sentiment": "[INST]One of<Mixed/Neutral/Constructive/Appreciative/Negative/Suggestive/Criticism>[/INST]",
-        "summaryPoints": "[[INST]Summarize the feedback for the said sentiment in the third person perspective and create a list.[/INST]]"
-      }
-    ]
   }
   [/INST]
   [INST]The response will be parsed, so ensure it is a JSON object only, following the given format with no extra context.[/INST]

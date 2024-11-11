@@ -41,12 +41,14 @@ export const updateCSV = async (
     "noteId",
     "feedback",
     "overallSentiment",
+    "Mixed",
+    "Neutral",
+    "Constructive",
+    "Appreciative",
+    "Negative",
+    "Suggestive",
+    "Criticism",
     "overallSummary",
-    "sentimentPercentages",
-    "suggestions",
-    "sentimentQualitativeAssessment",
-    "summary",
-    "analyzed_feedback",
   ];
 
   // Load existing data from CSV
@@ -106,8 +108,9 @@ export const analyzeFeedbacks = async (
 ) => {
   const feedbacks = await readCSV(filePath);
 
-  // Split feedbacks into chunks of 5
-  const chunks = chunkArray(feedbacks, 10);
+  const chunkSize = 10;
+
+  const chunks = chunkArray(feedbacks, chunkSize);
 
   for (const chunk of chunks) {
     try {
@@ -122,7 +125,15 @@ export const analyzeFeedbacks = async (
             feedbackEntry.feedback
           );
 
-          return { ...feedbackEntry, ...analyzed_feedback, analyzed_feedback };
+          const { overallSentiment, overallSummary, sentimentPercentages } =
+            analyzed_feedback;
+
+          return {
+            ...feedbackEntry,
+            overallSentiment,
+            ...sentimentPercentages,
+            overallSummary,
+          };
         })
       );
 
