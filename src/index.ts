@@ -9,6 +9,8 @@ const PORT = process.env.PORT || 3000;
 
 app.use(express.json());
 
+app.use(express.text());
+
 app.get("/summarize", async (req: Request, res: Response) => {
   try {
     const inputFilePath = "src/data/input.csv";
@@ -29,7 +31,7 @@ app.get("/summarize", async (req: Request, res: Response) => {
 
 app.post("/feedback", async (req: Request, res: Response) => {
   try {
-    const feedback = req.body?.feedback;
+    const feedback = req.body;
     console.log(req.body);
 
     if (!feedback) {
